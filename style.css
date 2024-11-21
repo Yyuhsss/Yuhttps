@@ -1,0 +1,98 @@
+:root {
+      --cor-principal: #000000;
+      --cor-topo-texto: #adeada;
+      --cor-textos: #ddeadd;
+      --back-textos: #1C1C1C;
+}
+
+body{
+background-color: var(--cor-principal);
+}
+
+
+.topo {
+
+color: var(--cor-topo-texto);
+font-family: "Pacifico", cursive;
+text-align :center
+
+}
+.topo img{
+height: 60px;
+
+}
+
+.home {
+background-color: var(--back-textos);
+color: var(--cor-textos);
+font-family: "Caveat", cursive;
+text-align: center;
+font-size: 26px;
+
+
+}
+
+.roll {
+ color: var(--cor-topo-texto);
+ font-family: "Pacifico", cursive;
+ text-align :center
+ 
+}
+
+.detalhes {
+display: flex;
+overflow-x: auto;
+gap: 10px;
+margin: 25px;
+}
+.make {
+display: flex;
+ overflow-x: auto;
+ gap: 10px;
+ margin: 25px;
+}
+.roupas {
+ display: flex;
+ overflow-x: auto;
+ gap: 10px;
+ margin: 25px;
+}
+
+.img img:hover {
+ opacity: 2.0;
+ border: 1px solid indigo;
+}
+
+.img img{
+      opacity: 0.5;
+      }
+.img img{
+      height: 95px;
+}
+      
+.imagens {
+      background-color: var(--back-textos);
+      color: var(--cor-textos);
+      padding-left: 450px;
+}
+.imagens img{
+      height: 249px;
+}
+
+.pg2{
+      background-color: var(--back-textos);
+      color: var(--cor-textos);
+      padding-left: 550px;
+}
+.pg2 img{
+      height: 249px;
+}
+
+.g11 {
+      background-color: var(--back-textos);
+      color: var(--cor-textos);
+      padding-left: 320px;
+}
+.g11 img{
+      height: 195px;
+}
